@@ -1,0 +1,62 @@
+<manifest>
+<remote name="origin" fetch="ssh://admin@192.168.116.130:29418/" />
+<default revision="master" remote="origin" />
+<project name="embedsky/4.4.6" path="4.4.6"/>
+<project name="embedsky/jdk1.6.0_30" path="jdk1.6.0_30.git"/>
+<project name="embedsky/qt-4.5/210pro/camera_for_pc_client" path="qt-4.5/210pro/camera_for_pc_client"/>
+<project name="embedsky/qt-4.5/210pro/TQAdc" path="qt-4.5/210pro/tqadc"/>
+<project name="embedsky/qt-4.5/210pro/TQBeep" path="qt-4.5/210pro/tqbeep"/>
+<project name="embedsky/qt-4.5/210pro/TQCamera_210" path="qt-4.5/210pro/tqcamera_210"/>
+<project name="embedsky/qt-4.5/210pro/TQComDebugger" path="qt-4.5/210pro/tqcomdebugger"/>
+<project name="embedsky/qt-4.5/210pro/TQFileBrowser" path="qt-4.5/210pro/tqfilebrowser"/>
+<project name="embedsky/qt-4.5/210pro/TQGPS" path="qt-4.5/210pro/tqgps"/>
+<project name="embedsky/qt-4.5/210pro/TQLed" path="qt-4.5/210pro/tqled"/>
+<project name="embedsky/qt-4.5/210pro/TQMediaPlayer" path="qt-4.5/210pro/tqmediaplayer"/>
+<project name="embedsky/qt-4.5/210pro/TQMp3Player" path="qt-4.5/210pro/tqmp3player"/>
+<project name="embedsky/qt-4.5/210pro/TQWebBrowser" path="qt-4.5/210pro/tqwebbrowser"/>
+<project name="embedsky/qt-4.5/build" path="qt-4.5/build">
+    <linkfile dest="qt-4.5/arm_qt4.5_build" src="arm_qt4.5_build"/>
+    <linkfile dest="qt-4.5/setARM_env" src="setARM_env"/>
+</project>
+<project name="embedsky/qt-4.5/qt-embedded-linux-opensource-src-4.5.0" path="qt-4.5/qt-embedded-linux-opensource-src-4.5.0"/>
+<project name="embedsky/TQ210/apps_TQ210/cgic205" path="tq210/apps_tq210/cgic205"/>
+<project name="embedsky/TQ210/apps_TQ210/EmbedSky_wdg" path="tq210/apps_tq210/embedsky_wdg"/>
+<project name="embedsky/TQ210/apps_TQ210/Hello-C" path="tq210/apps_tq210/hello-c"/>
+<project name="embedsky/TQ210/apps_TQ210/Hello-CPP" path="tq210/apps_tq210/hello-cpp"/>
+<project name="embedsky/TQ210/apps_TQ210/madplay" path="tq210/apps_tq210/madplay"/>
+<project name="embedsky/TQ210/apps_TQ210/math-test" path="tq210/apps_tq210/math-test"/>
+<project name="embedsky/TQ210/apps_TQ210/pthread-test" path="tq210/apps_tq210/pthread-test"/>
+<project name="embedsky/TQ210/apps_TQ210/sqlite-3.5.9" path="tq210/apps_tq210/sqlite-3.5.9"/>
+<project name="embedsky/TQ210/apps_TQ210/tslib-1.4.1" path="tq210/apps_tq210/tslib-1.4.1"/>
+<project name="embedsky/TQ210/apps_TQ210/UDP-Test" path="tq210/apps_tq210/udp-test"/>
+<project name="embedsky/TQ210/apps_TQ210/vfp_test" path="tq210/apps_tq210/vfp_test"/>
+<project name="embedsky/TQ210/apps_TQ210/wireless_tools.29" path="tq210/apps_tq210/wireless_tools.29"/>
+<project name="embedsky/TQ210/busybox-1.20.0" path="tq210/busybox-1.20.0"/>
+<project name="embedsky/TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4" path="tq210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4"/>
+<project name="embedsky/TQ210/Kernel_3.0.8_TQ210_for_Android_v2.1" path="Kernel_3.0.8_TQ210_for_Android_v2.1"/>
+<project name="embedsky/TQ210/Kernel_3.0.8_TQ210_for_Linux_v2.1" path="Kernel_3.0.8_TQ210_for_Linux_v2.1"/>
+<project name="embedsky/TQ210/rootfs_linux_v1.4_CoreB" path="tq210/rootfs_linux_v1.4_coreb"/>
+<project name="embedsky/TQ210/uboot_TQ210_coreb_1.4.0" path="tq210/uboot_tq210_coreb_1.4.0"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/abi" path="tq210/tq210_android_4.0.4_v1.4/abi"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/bionic" path="tq210/tq210_android_4.0.4_v1.4/bionic"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/bootable" path="tq210/tq210_android_4.0.4_v1.4/bootable"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/build" path="tq210/tq210_android_4.0.4_v1.4/build">
+    <linkfile dest="tq210/tq210_android_4.0.4_v1.4/build_coreB_android.sh" src="build_coreB_android.sh"/>
+    <copyfile dest="tq210/tq210_android_4.0.4_v1.4/Makefile" src="Makefile"/>
+</project>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/cts" path="tq210/tq210_android_4.0.4_v1.4/cts"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/dalvik" path="tq210/tq210_android_4.0.4_v1.4/dalvik"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/development" path="tq210/tq210_android_4.0.4_v1.4/development"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/device" path="tq210/tq210_android_4.0.4_v1.4/device"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/docs" path="tq210/tq210_android_4.0.4_v1.4/docs"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external" path="tq210/tq210_android_4.0.4_v1.4/external"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/frameworks" path="tq210/tq210_android_4.0.4_v1.4/frameworks"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/hardware" path="tq210/tq210_android_4.0.4_v1.4/hardware"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/libcore" path="tq210/tq210_android_4.0.4_v1.4/libcore"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/ndk" path="tq210/tq210_android_4.0.4_v1.4/ndk"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/packages" path="tq210/tq210_android_4.0.4_v1.4/packages"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/prebuilt" path="tq210/tq210_android_4.0.4_v1.4/prebuilt"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/sdk" path="tq210/tq210_android_4.0.4_v1.4/sdk"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/system" path="tq210/tq210_android_4.0.4_v1.4/system"/>
+<project name="embedsky/TQ210/TQ210_Android_4.0.4_V1.4/vendor" path="tq210/tq210_android_4.0.4_v1.4/vendor"/>
+</manifest>
