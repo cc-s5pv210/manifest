@@ -1,5 +1,5 @@
 <manifest>
-<remote name="origin" fetch="ssh://admin@192.168.116.130:29418/" />
+<remote name="origin" fetch="ssh://admin@192.168.116.130:7008/" />
 <default revision="master" remote="origin" />
 <project name="embedsky/4.4.6" path="4.4.6"/>
 <project name="embedsky/jdk1.6.0_30" path="jdk1.6.0_30.git"/>
