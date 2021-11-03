@@ -33,6 +33,7 @@
 <project name="embedsky/TQ210/apps_TQ210/wireless_tools.29" path="tq210/apps_tq210/wireless_tools.29"/>
 <project name="embedsky/TQ210/busybox-1.20.0" path="tq210/busybox-1.20.0"/>
 
+<project name="embedsky/TQ210/uboot_TQ210_1.3.4" path="tq210/uboot_TQ210_1.3.4"/>
 
 <project name="embedsky/TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4" path="linux/Kernel_2.6.35.7_TQ210_for_Linux_v1.4"/>
 <project name="embedsky/TQ210/Kernel_3.0.8_TQ210_for_Android_v2.1" path="tq210/Kernel_3.0.8_TQ210_for_Android_v2.1"/>
