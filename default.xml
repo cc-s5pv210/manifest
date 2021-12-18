@@ -3,6 +3,7 @@
 <default revision="master" remote="origin" />
 <project name="embedsky/4.4.6" path="4.4.6"/>
 <project name="embedsky/tools" path="tools"/>
+<project name="embedsky/make-3.81" path="make-3.81"/>
 <project name="embedsky/jdk1.6.0_30" path="jdk1.6.0_30"/>
 <project name="embedsky/qt-4.5/210pro/camera_for_pc_client" path="qt-4.5/210pro/camera_for_pc_client"/>
 <project name="embedsky/qt-4.5/210pro/TQAdc" path="qt-4.5/210pro/tqadc"/>
