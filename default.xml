@@ -1,197 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="origin" fetch="ssh://admin@baixd.wicp.top:7008/" />
-<default revision="master" remote="origin" />
-<project name="system/embedsky/4.4.6" path="4.4.6"/>
-<project name="system/embedsky/tools" path="tools"/>
-<project name="system/embedsky/make-3.81" path="make-3.81"/>
-<project name="system/embedsky/jdk1.6.0_30" path="jdk1.6.0_30"/>
-<project name="system/embedsky/no_os" path="no_os"/>
-
-
-
-
-<project name="system/embedsky/qt-4.5/210pro/camera_for_pc_client" path="qt-4.5/210pro/camera_for_pc_client"/>
-<project name="system/embedsky/qt-4.5/210pro/TQAdc" path="qt-4.5/210pro/tqadc"/>
-<project name="system/embedsky/qt-4.5/210pro/TQBeep" path="qt-4.5/210pro/tqbeep"/>
-<project name="system/embedsky/qt-4.5/210pro/TQCamera_210" path="qt-4.5/210pro/tqcamera_210"/>
-<project name="system/embedsky/qt-4.5/210pro/TQComDebugger" path="qt-4.5/210pro/tqcomdebugger"/>
-<project name="system/embedsky/qt-4.5/210pro/TQFileBrowser" path="qt-4.5/210pro/tqfilebrowser"/>
-<project name="system/embedsky/qt-4.5/210pro/TQGPS" path="qt-4.5/210pro/tqgps"/>
-<project name="system/embedsky/qt-4.5/210pro/TQLed" path="qt-4.5/210pro/tqled"/>
-<project name="system/embedsky/qt-4.5/210pro/TQMediaPlayer" path="qt-4.5/210pro/tqmediaplayer"/>
-<project name="system/embedsky/qt-4.5/210pro/TQMp3Player" path="qt-4.5/210pro/tqmp3player"/>
-<project name="system/embedsky/qt-4.5/210pro/TQWebBrowser" path="qt-4.5/210pro/tqwebbrowser"/>
-<project name="system/embedsky/qt-4.5/build" path="qt-4.5/build">
-    <linkfile dest="qt-4.5/arm_qt4.5_build" src="arm_qt4.5_build"/>
-    <linkfile dest="qt-4.5/setARM_env" src="setARM_env"/>
-</project>
-<project name="system/embedsky/qt-4.5/qt-embedded-linux-opensource-src-4.5.0" path="qt-4.5/qt-embedded-linux-opensource-src-4.5.0"/>
-<project name="system/embedsky/TQ210/apps_TQ210/cgic205" path="TQ210/apps_TQ210/cgic205"/>
-<project name="system/embedsky/TQ210/apps_TQ210/boa-0.94.13" path="TQ210/apps_TQ210/boa-0.94.13"/>
-<project name="system/embedsky/TQ210/apps_TQ210/EmbedSky_wdg" path="TQ210/apps_TQ210/embedsky_wdg"/>
-<project name="system/embedsky/TQ210/apps_TQ210/Hello-C" path="TQ210/apps_TQ210/hello-c"/>
-<project name="system/embedsky/TQ210/apps_TQ210/Hello-CPP" path="TQ210/apps_TQ210/hello-cpp"/>
-<project name="system/embedsky/TQ210/apps_TQ210/madplay" path="TQ210/apps_TQ210/madplay"/>
-<project name="system/embedsky/TQ210/apps_TQ210/math-test" path="TQ210/apps_TQ210/math-test"/>
-<project name="system/embedsky/TQ210/apps_TQ210/pthread-test" path="TQ210/apps_TQ210/pthread-test"/>
-<project name="system/embedsky/TQ210/apps_TQ210/sqlite-3.5.9" path="TQ210/apps_TQ210/sqlite-3.5.9"/>
-<project name="system/embedsky/TQ210/apps_TQ210/tslib-1.4.1" path="TQ210/apps_TQ210/tslib-1.4.1"/>
-<project name="system/embedsky/TQ210/apps_TQ210/UDP-Test" path="TQ210/apps_TQ210/udp-test"/>
-<project name="system/embedsky/TQ210/apps_TQ210/vfp_test" path="TQ210/apps_TQ210/vfp_test"/>
-<project name="system/embedsky/TQ210/apps_TQ210/wireless_tools.29" path="TQ210/apps_TQ210/wireless_tools.29"/>
-<project name="system/embedsky/TQ210/busybox-1.20.0" path="TQ210/busybox-1.20.0"/>
-
-<project name="system/embedsky/TQ210/uboot_TQ210_1.3.4" path="TQ210/uboot_TQ210_1.3.4"/>
-
-<!-- Kernel -->
-<project name="system/embedsky/TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4" path="TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4"/>
-<project name="system/embedsky/TQ210/Kernel_3.0.8_TQ210_for_Android_v2.1" path="TQ210/Kernel_3.0.8_TQ210_for_Android_v2.1"/>
-<project name="system/embedsky/TQ210/Kernel_3.0.8_TQ210_for_Linux_v2.1" path="TQ210/Kernel_3.0.8_TQ210_for_Linux_v2.1"/>
-<project name="system/embedsky/TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4" path="TQ210/TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4"/>
-
-<project name="system/embedsky/TQ210/rootfs_linux_v1.4_CoreB" path="TQ210/rootfs_linux_v1.4_CoreB"/>
-<project name="system/embedsky/TQ210/rootfs_linux_v1.4_CoreC" path="TQ210/rootfs_linux_v1.4_CoreC"/>
-
-<!-- Android -->
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/abi" path="TQ210/TQ210_Android_4.0.4_V1.4/abi"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/bionic" path="TQ210/TQ210_Android_4.0.4_V1.4/bionic"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/bootable" path="TQ210/TQ210_Android_4.0.4_V1.4/bootable"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/build" path="TQ210/TQ210_Android_4.0.4_V1.4/build">
-    <linkfile dest="TQ210/TQ210_Android_4.0.4_V1.4/build_coreB_android.sh" src="build_coreB_android.sh"/>
-    <copyfile dest="TQ210/TQ210_Android_4.0.4_V1.4/Makefile" src="Makefile"/>
-</project>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/cts" path="TQ210/TQ210_Android_4.0.4_V1.4/cts"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/dalvik" path="TQ210/TQ210_Android_4.0.4_V1.4/dalvik"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/development" path="TQ210/TQ210_Android_4.0.4_V1.4/development"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/device" path="TQ210/TQ210_Android_4.0.4_V1.4/device"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/docs" path="TQ210/TQ210_Android_4.0.4_V1.4/docs"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/frameworks" path="TQ210/TQ210_Android_4.0.4_V1.4/frameworks"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/hardware" path="TQ210/TQ210_Android_4.0.4_V1.4/hardware"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/libcore" path="TQ210/TQ210_Android_4.0.4_V1.4/libcore"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/ndk" path="TQ210/TQ210_Android_4.0.4_V1.4/ndk"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/packages" path="TQ210/TQ210_Android_4.0.4_V1.4/packages"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/prebuilt" path="TQ210/TQ210_Android_4.0.4_V1.4/prebuilt"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/sdk" path="TQ210/TQ210_Android_4.0.4_V1.4/sdk"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/system" path="TQ210/TQ210_Android_4.0.4_V1.4/system"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/vendor" path="TQ210/TQ210_Android_4.0.4_V1.4/vendor"/>
-
-
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/android-mock" path="TQ210/TQ210_Android_4.0.4_V1.4/external/android-mock"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/antlr" path="TQ210/TQ210_Android_4.0.4_V1.4/external/antlr"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/apache-harmony" path="TQ210/TQ210_Android_4.0.4_V1.4/external/apache-harmony"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/apache-http" path="TQ210/TQ210_Android_4.0.4_V1.4/external/apache-http"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/apache-xml" path="TQ210/TQ210_Android_4.0.4_V1.4/external/apache-xml"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/astl" path="TQ210/TQ210_Android_4.0.4_V1.4/external/astl"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/bison" path="TQ210/TQ210_Android_4.0.4_V1.4/external/bison"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/blktrace" path="TQ210/TQ210_Android_4.0.4_V1.4/external/blktrace"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/bluetooth" path="TQ210/TQ210_Android_4.0.4_V1.4/external/bluetooth"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/bouncycastle" path="TQ210/TQ210_Android_4.0.4_V1.4/external/bouncycastle"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/bsdiff" path="TQ210/TQ210_Android_4.0.4_V1.4/external/bsdiff"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/bzip2" path="TQ210/TQ210_Android_4.0.4_V1.4/external/bzip2"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/chromium" path="TQ210/TQ210_Android_4.0.4_V1.4/external/chromium"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/clang" path="TQ210/TQ210_Android_4.0.4_V1.4/external/clang"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/collada" path="TQ210/TQ210_Android_4.0.4_V1.4/external/collada"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/dbus" path="TQ210/TQ210_Android_4.0.4_V1.4/external/dbus"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/dhcpcd" path="TQ210/TQ210_Android_4.0.4_V1.4/external/dhcpcd"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/dnsmasq" path="TQ210/TQ210_Android_4.0.4_V1.4/external/dnsmasq"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/doclava" path="TQ210/TQ210_Android_4.0.4_V1.4/external/doclava"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/dropbear" path="TQ210/TQ210_Android_4.0.4_V1.4/external/dropbear"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/e2fsprogs" path="TQ210/TQ210_Android_4.0.4_V1.4/external/e2fsprogs"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/easymock" path="TQ210/TQ210_Android_4.0.4_V1.4/external/easymock"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/elfutils" path="TQ210/TQ210_Android_4.0.4_V1.4/external/elfutils"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/embunit" path="TQ210/TQ210_Android_4.0.4_V1.4/external/embunit"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/emma" path="TQ210/TQ210_Android_4.0.4_V1.4/external/emma"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/esd" path="TQ210/TQ210_Android_4.0.4_V1.4/external/esd"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/expat" path="TQ210/TQ210_Android_4.0.4_V1.4/external/expat"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/eyes-free" path="TQ210/TQ210_Android_4.0.4_V1.4/external/eyes-free"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/fdlibm" path="TQ210/TQ210_Android_4.0.4_V1.4/external/fdlibm"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/flac" path="TQ210/TQ210_Android_4.0.4_V1.4/external/flac"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/freetype" path="TQ210/TQ210_Android_4.0.4_V1.4/external/freetype"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/fsck_msdos" path="TQ210/TQ210_Android_4.0.4_V1.4/external/fsck_msdos"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/genext2fs" path="TQ210/TQ210_Android_4.0.4_V1.4/external/genext2fs"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/giflib" path="TQ210/TQ210_Android_4.0.4_V1.4/external/giflib"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/google-diff-match-patch" path="TQ210/TQ210_Android_4.0.4_V1.4/external/google-diff-match-patch"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/grub" path="TQ210/TQ210_Android_4.0.4_V1.4/external/grub"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/gtest" path="TQ210/TQ210_Android_4.0.4_V1.4/external/gtest"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/guava" path="TQ210/TQ210_Android_4.0.4_V1.4/external/guava"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/harfbuzz" path="TQ210/TQ210_Android_4.0.4_V1.4/external/harfbuzz"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/hyphenation" path="TQ210/TQ210_Android_4.0.4_V1.4/external/hyphenation"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/icu4c" path="TQ210/TQ210_Android_4.0.4_V1.4/external/icu4c"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/iproute2" path="TQ210/TQ210_Android_4.0.4_V1.4/external/iproute2"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/ipsec-tools" path="TQ210/TQ210_Android_4.0.4_V1.4/external/ipsec-tools"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/iptables" path="TQ210/TQ210_Android_4.0.4_V1.4/external/iptables"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/javasqlite" path="TQ210/TQ210_Android_4.0.4_V1.4/external/javasqlite"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/javassist" path="TQ210/TQ210_Android_4.0.4_V1.4/external/javassist"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/jdiff" path="TQ210/TQ210_Android_4.0.4_V1.4/external/jdiff"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/jhead" path="TQ210/TQ210_Android_4.0.4_V1.4/external/jhead"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/jpeg" path="TQ210/TQ210_Android_4.0.4_V1.4/external/jpeg"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/jsilver" path="TQ210/TQ210_Android_4.0.4_V1.4/external/jsilver"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/jsr305" path="TQ210/TQ210_Android_4.0.4_V1.4/external/jsr305"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/junit" path="TQ210/TQ210_Android_4.0.4_V1.4/external/junit"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/kernel-headers" path="TQ210/TQ210_Android_4.0.4_V1.4/external/kernel-headers"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libffi" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libffi"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libgsm" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libgsm"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/liblzf" path="TQ210/TQ210_Android_4.0.4_V1.4/external/liblzf"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libnfc-nxp" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libnfc-nxp"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libnl-headers" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libnl-headers"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libpcap" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libpcap"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libphonenumber" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libphonenumber"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libpng" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libpng"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libvpx" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libvpx"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libxml2" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libxml2"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libxslt" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libxslt"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/libyuv" path="TQ210/TQ210_Android_4.0.4_V1.4/external/libyuv"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/llvm" path="TQ210/TQ210_Android_4.0.4_V1.4/external/llvm"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/lohit-fonts" path="TQ210/TQ210_Android_4.0.4_V1.4/external/lohit-fonts"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/markdown" path="TQ210/TQ210_Android_4.0.4_V1.4/external/markdown"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/mesa3d" path="TQ210/TQ210_Android_4.0.4_V1.4/external/mesa3d"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/mksh" path="TQ210/TQ210_Android_4.0.4_V1.4/external/mksh"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/mockwebserver" path="TQ210/TQ210_Android_4.0.4_V1.4/external/mockwebserver"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/mtpd" path="TQ210/TQ210_Android_4.0.4_V1.4/external/mtpd"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/netcat" path="TQ210/TQ210_Android_4.0.4_V1.4/external/netcat"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/netperf" path="TQ210/TQ210_Android_4.0.4_V1.4/external/netperf"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/neven" path="TQ210/TQ210_Android_4.0.4_V1.4/external/neven"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/nist-sip" path="TQ210/TQ210_Android_4.0.4_V1.4/external/nist-sip"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/oauth" path="TQ210/TQ210_Android_4.0.4_V1.4/external/oauth"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/opencv" path="TQ210/TQ210_Android_4.0.4_V1.4/external/opencv"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/openssl" path="TQ210/TQ210_Android_4.0.4_V1.4/external/openssl"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/oprofile" path="TQ210/TQ210_Android_4.0.4_V1.4/external/oprofile"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/pcre" path="TQ210/TQ210_Android_4.0.4_V1.4/external/pcre"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/ping" path="TQ210/TQ210_Android_4.0.4_V1.4/external/ping"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/ping6" path="TQ210/TQ210_Android_4.0.4_V1.4/external/ping6"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/ppp" path="TQ210/TQ210_Android_4.0.4_V1.4/external/ppp"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/proguard" path="TQ210/TQ210_Android_4.0.4_V1.4/external/proguard"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/protobuf" path="TQ210/TQ210_Android_4.0.4_V1.4/external/protobuf"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/qemu" path="TQ210/TQ210_Android_4.0.4_V1.4/external/qemu"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/qemu-pc-bios" path="TQ210/TQ210_Android_4.0.4_V1.4/external/qemu-pc-bios"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/quake" path="TQ210/TQ210_Android_4.0.4_V1.4/external/quake"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/replicaisland" path="TQ210/TQ210_Android_4.0.4_V1.4/external/replicaisland"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/safe-iop" path="TQ210/TQ210_Android_4.0.4_V1.4/external/safe-iop"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/skia" path="TQ210/TQ210_Android_4.0.4_V1.4/external/skia"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/sonivox" path="TQ210/TQ210_Android_4.0.4_V1.4/external/sonivox"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/speex" path="TQ210/TQ210_Android_4.0.4_V1.4/external/speex"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/sqlite" path="TQ210/TQ210_Android_4.0.4_V1.4/external/sqlite"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/srec" path="TQ210/TQ210_Android_4.0.4_V1.4/external/srec"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/srtp" path="TQ210/TQ210_Android_4.0.4_V1.4/external/srtp"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/stlport" path="TQ210/TQ210_Android_4.0.4_V1.4/external/stlport"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/strace" path="TQ210/TQ210_Android_4.0.4_V1.4/external/strace"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/svox" path="TQ210/TQ210_Android_4.0.4_V1.4/external/svox"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/tagsoup" path="TQ210/TQ210_Android_4.0.4_V1.4/external/tagsoup"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/tcpdump" path="TQ210/TQ210_Android_4.0.4_V1.4/external/tcpdump"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/tinyalsa" path="TQ210/TQ210_Android_4.0.4_V1.4/external/tinyalsa"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/tinyxml" path="TQ210/TQ210_Android_4.0.4_V1.4/external/tinyxml"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/tremolo" path="TQ210/TQ210_Android_4.0.4_V1.4/external/tremolo"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/v8" path="TQ210/TQ210_Android_4.0.4_V1.4/external/v8"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/valgrind" path="TQ210/TQ210_Android_4.0.4_V1.4/external/valgrind"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/webkit" path="TQ210/TQ210_Android_4.0.4_V1.4/external/webkit"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/webp" path="TQ210/TQ210_Android_4.0.4_V1.4/external/webp"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/webrtc" path="TQ210/TQ210_Android_4.0.4_V1.4/external/webrtc"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/wireless-tools" path="TQ210/TQ210_Android_4.0.4_V1.4/external/wireless-tools"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant" path="TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant_6" path="TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant_6"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant_8" path="TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant_8"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/xmlwriter" path="TQ210/TQ210_Android_4.0.4_V1.4/external/xmlwriter"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/yaffs2" path="TQ210/TQ210_Android_4.0.4_V1.4/external/yaffs2"/>
-<project name="system/embedsky/TQ210/TQ210_Android_4.0.4_V1.4/external/zlib" path="TQ210/TQ210_Android_4.0.4_V1.4/external/zlib"/>
-
+  <remote name="github" fetch="git@github.com:rstg00po54/" />
+  <default revision="main" remote="github" sync-j="4" />
+  <project path="4.4.6" name="s5pv210-system_embedsky_4.4.6" />
+  <project path="tools" name="s5pv210-system_embedsky_tools" />
+  <project path="make-3.81" name="s5pv210-system_embedsky_make-3.81" />
+  <project path="jdk1.6.0_30" name="s5pv210-system_embedsky_jdk1.6.0_30" />
+  <project path="no_os" name="s5pv210-system_embedsky_no_os" />
+  <project path="qt-4.5/210pro/camera_for_pc_client" name="s5pv210-system_embedsky_qt-4.5_210pro_camera_for_pc_client" />
+  <project path="qt-4.5/210pro/tqadc" name="s5pv210-system_embedsky_qt-4.5_210pro_TQAdc" />
+  <project path="qt-4.5/210pro/tqbeep" name="s5pv210-system_embedsky_qt-4.5_210pro_TQBeep" />
+  <project path="qt-4.5/210pro/tqcamera_210" name="s5pv210-system_embedsky_qt-4.5_210pro_TQCamera_210" />
+  <project path="qt-4.5/210pro/tqcomdebugger" name="s5pv210-system_embedsky_qt-4.5_210pro_TQComDebugger" />
+  <project path="qt-4.5/210pro/tqfilebrowser" name="s5pv210-system_embedsky_qt-4.5_210pro_TQFileBrowser" />
+  <project path="qt-4.5/210pro/tqgps" name="s5pv210-system_embedsky_qt-4.5_210pro_TQGPS" />
+  <project path="qt-4.5/210pro/tqled" name="s5pv210-system_embedsky_qt-4.5_210pro_TQLed" />
+  <project path="qt-4.5/210pro/tqmediaplayer" name="s5pv210-system_embedsky_qt-4.5_210pro_TQMediaPlayer" />
+  <project path="qt-4.5/210pro/tqmp3player" name="s5pv210-system_embedsky_qt-4.5_210pro_TQMp3Player" />
+  <project path="qt-4.5/210pro/tqwebbrowser" name="s5pv210-system_embedsky_qt-4.5_210pro_TQWebBrowser" />
+  <project path="qt-4.5/build" name="s5pv210-system_embedsky_qt-4.5_build" />
+  <project path="qt-4.5/qt-embedded-linux-opensource-src-4.5.0" name="s5pv210-system_embedsky_qt-4.5_qt-embedded-linux-opensource-src-4.5.0" />
+  <project path="TQ210/apps_TQ210/cgic205" name="s5pv210-system_embedsky_TQ210_apps_TQ210_cgic205" />
+  <project path="TQ210/apps_TQ210/boa-0.94.13" name="s5pv210-system_embedsky_TQ210_apps_TQ210_boa-0.94.13" />
+  <project path="TQ210/apps_TQ210/embedsky_wdg" name="s5pv210-system_embedsky_TQ210_apps_TQ210_EmbedSky_wdg" />
+  <project path="TQ210/apps_TQ210/hello-c" name="s5pv210-system_embedsky_TQ210_apps_TQ210_Hello-C" />
+  <project path="TQ210/apps_TQ210/hello-cpp" name="s5pv210-system_embedsky_TQ210_apps_TQ210_Hello-CPP" />
+  <project path="TQ210/apps_TQ210/madplay" name="s5pv210-system_embedsky_TQ210_apps_TQ210_madplay" />
+  <project path="TQ210/apps_TQ210/math-test" name="s5pv210-system_embedsky_TQ210_apps_TQ210_math-test" />
+  <project path="TQ210/apps_TQ210/pthread-test" name="s5pv210-system_embedsky_TQ210_apps_TQ210_pthread-test" />
+  <project path="TQ210/apps_TQ210/sqlite-3.5.9" name="s5pv210-system_embedsky_TQ210_apps_TQ210_sqlite-3.5.9" />
+  <project path="TQ210/apps_TQ210/tslib-1.4.1" name="s5pv210-system_embedsky_TQ210_apps_TQ210_tslib-1.4.1" />
+  <project path="TQ210/apps_TQ210/udp-test" name="s5pv210-system_embedsky_TQ210_apps_TQ210_UDP-Test" />
+  <project path="TQ210/apps_TQ210/vfp_test" name="s5pv210-system_embedsky_TQ210_apps_TQ210_vfp_test" />
+  <project path="TQ210/apps_TQ210/wireless_tools.29" name="s5pv210-system_embedsky_TQ210_apps_TQ210_wireless_tools.29" />
+  <project path="TQ210/busybox-1.20.0" name="s5pv210-system_embedsky_TQ210_busybox-1.20.0" />
+  <project path="TQ210/uboot_TQ210_1.3.4" name="s5pv210-system_embedsky_TQ210_uboot_TQ210_1.3.4" />
+  <project path="TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4
+TQ210/TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4" name="s5pv210-system_embedsky_TQ210_Kernel_2.6.35.7_TQ210_for_Linux_v1.4" />
+  <project path="TQ210/Kernel_3.0.8_TQ210_for_Android_v2.1" name="s5pv210-system_embedsky_TQ210_Kernel_3.0.8_TQ210_for_Android_v2.1" />
+  <project path="TQ210/Kernel_3.0.8_TQ210_for_Linux_v2.1" name="s5pv210-system_embedsky_TQ210_Kernel_3.0.8_TQ210_for_Linux_v2.1" />
+  <project path="TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4
+TQ210/TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4" name="s5pv210-system_embedsky_TQ210_Kernel_2.6.35.7_TQ210_for_Linux_v1.4" />
+  <project path="TQ210/rootfs_linux_v1.4_CoreB" name="s5pv210-system_embedsky_TQ210_rootfs_linux_v1.4_CoreB" />
+  <project path="TQ210/rootfs_linux_v1.4_CoreC" name="s5pv210-system_embedsky_TQ210_rootfs_linux_v1.4_CoreC" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/abi" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_abi" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/bionic" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_bionic" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/bootable" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_bootable" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/build" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_build" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/cts" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_cts" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/dalvik" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_dalvik" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/development" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_development" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/device" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_device" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/docs" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_docs" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/frameworks" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_frameworks" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/hardware" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_hardware" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/libcore" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_libcore" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/ndk" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_ndk" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/packages" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_packages" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/prebuilt" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_prebuilt" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/sdk" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_sdk" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/system" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_system" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/vendor" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_vendor" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/android-mock" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_android-mock" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/antlr" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_antlr" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/apache-harmony" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_apache-harmony" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/apache-http" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_apache-http" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/apache-xml" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_apache-xml" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/astl" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_astl" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/bison" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_bison" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/blktrace" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_blktrace" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/bluetooth" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_bluetooth" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/bouncycastle" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_bouncycastle" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/bsdiff" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_bsdiff" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/bzip2" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_bzip2" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/chromium" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_chromium" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/clang" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_clang" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/collada" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_collada" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/dbus" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_dbus" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/dhcpcd" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_dhcpcd" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/dnsmasq" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_dnsmasq" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/doclava" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_doclava" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/dropbear" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_dropbear" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/e2fsprogs" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_e2fsprogs" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/easymock" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_easymock" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/elfutils" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_elfutils" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/embunit" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_embunit" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/emma" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_emma" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/esd" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_esd" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/expat" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_expat" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/eyes-free" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_eyes-free" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/fdlibm" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_fdlibm" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/flac" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_flac" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/freetype" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_freetype" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/fsck_msdos" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_fsck_msdos" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/genext2fs" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_genext2fs" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/giflib" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_giflib" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/google-diff-match-patch" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_google-diff-match-patch" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/grub" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_grub" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/gtest" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_gtest" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/guava" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_guava" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/harfbuzz" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_harfbuzz" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/hyphenation" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_hyphenation" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/icu4c" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_icu4c" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/iproute2" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_iproute2" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/ipsec-tools" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_ipsec-tools" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/iptables" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_iptables" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/javasqlite" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_javasqlite" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/javassist" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_javassist" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/jdiff" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_jdiff" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/jhead" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_jhead" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/jpeg" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_jpeg" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/jsilver" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_jsilver" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/jsr305" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_jsr305" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/junit" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_junit" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/kernel-headers" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_kernel-headers" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libffi" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libffi" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libgsm" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libgsm" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/liblzf" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_liblzf" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libnfc-nxp" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libnfc-nxp" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libnl-headers" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libnl-headers" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libpcap" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libpcap" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libphonenumber" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libphonenumber" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libpng" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libpng" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libvpx" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libvpx" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libxml2" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libxml2" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libxslt" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libxslt" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/libyuv" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_libyuv" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/llvm" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_llvm" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/lohit-fonts" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_lohit-fonts" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/markdown" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_markdown" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/mesa3d" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_mesa3d" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/mksh" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_mksh" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/mockwebserver" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_mockwebserver" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/mtpd" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_mtpd" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/netcat" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_netcat" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/netperf" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_netperf" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/neven" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_neven" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/nist-sip" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_nist-sip" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/oauth" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_oauth" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/opencv" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_opencv" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/openssl" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_openssl" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/oprofile" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_oprofile" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/pcre" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_pcre" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/ping" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_ping" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/ping6" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_ping6" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/ppp" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_ppp" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/proguard" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_proguard" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/protobuf" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_protobuf" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/qemu" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_qemu" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/qemu-pc-bios" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_qemu-pc-bios" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/quake" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_quake" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/replicaisland" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_replicaisland" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/safe-iop" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_safe-iop" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/skia" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_skia" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/sonivox" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_sonivox" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/speex" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_speex" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/sqlite" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_sqlite" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/srec" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_srec" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/srtp" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_srtp" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/stlport" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_stlport" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/strace" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_strace" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/svox" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_svox" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/tagsoup" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_tagsoup" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/tcpdump" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_tcpdump" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/tinyalsa" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_tinyalsa" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/tinyxml" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_tinyxml" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/tremolo" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_tremolo" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/v8" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_v8" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/valgrind" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_valgrind" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/webkit" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_webkit" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/webp" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_webp" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/webrtc" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_webrtc" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/wireless-tools" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_wireless-tools" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_wpa_supplicant" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant_6" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_wpa_supplicant_6" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/wpa_supplicant_8" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_wpa_supplicant_8" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/xmlwriter" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_xmlwriter" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/yaffs2" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_yaffs2" />
+  <project path="TQ210/TQ210_Android_4.0.4_V1.4/external/zlib" name="s5pv210-system_embedsky_TQ210_TQ210_Android_4.0.4_V1.4_external_zlib" />
 </manifest>
