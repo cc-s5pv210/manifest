@@ -3,7 +3,7 @@
 
 
 <!-- ssh://rstg00po54@gerrithub.io:29418/cc-s5pv210/manifest -->
-<remote name="gerrithub" fetch="ssh://rstg00po54@gerrithub.io:29418/" review="gerrithub.io" />
+<remote name="gerrithub" fetch="ssh://rstg00po54@gerrithub.io:29418/cc-s5pv210/" review="gerrithub.io" />
 <default revision="main" remote="gerrithub" sync-j="4" />
   <project path="4.4.6" name="4.4.6" />
   <project path="tools" name="tools" />
@@ -38,7 +38,6 @@
   <project path="TQ210/apps_TQ210/wireless_tools.29" name="apps_TQ210_wireless_tools.29" />
   <project path="TQ210/busybox-1.20.0" name="busybox-1.20.0" />
   <project path="TQ210/uboot_TQ210_1.3.4" name="uboot_TQ210_1.3.4" />
-  <project path="TQ210/Kernel_2.6.35.7_TQ210_for_Linux_v1.4" name="Kernel_2.6.35.7_TQ210_for_Linux_v1.4" />
   <project path="TQ210/Kernel_3.0.8_TQ210_for_Android_v2.1" name="Kernel_3.0.8_TQ210_for_Android_v2.1" />
   <project path="TQ210/Kernel_3.0.8_TQ210_for_Linux_v2.1" name="Kernel_3.0.8_TQ210_for_Linux_v2.1" />
 
